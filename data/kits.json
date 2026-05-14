@@ -1,0 +1,889 @@
+{
+  "shop": {
+    "name": "ECC",
+    "subtitle": "CONVERSION KITS",
+    "tagline": "Browse all the possible conversion kits for your vehicle."
+  },
+  "vehicles": [
+    {
+      "id": "vigero2",
+      "make": "Declasse",
+      "model": "Declasse Vigero ZX",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstdrtvigzx1",
+          "name": "Declasse Vigero ZX DRT",
+          "price": 100000,
+          "image": "gstdrtvigzx1",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gauntlet4",
+      "make": "Bravado",
+      "model": "Bravado Gauntlet Hellfire",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstghell5",
+          "name": "Bravado Gauntlet HFWB",
+          "price": 100000,
+          "image": "gstghell5",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "dukes3",
+      "make": "Imponte",
+      "model": "Imponte Beater Dukes",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstbufac1",
+          "name": "Bravado Buffalo Classic",
+          "price": 100000,
+          "image": "gstbufac1",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "fr36",
+      "make": "Fathom",
+      "model": "Fathom FR36",
+      "description": "",
+      "variations": [
+        {
+          "id": "driftfr36",
+          "name": "FR36",
+          "price": 50000,
+          "image": "driftfr36",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "futo2",
+      "make": "Karin",
+      "model": "Karin Futo GTX",
+      "description": "",
+      "variations": [
+        {
+          "id": "driftfuto",
+          "name": "Futo GTX",
+          "price": 50000,
+          "image": "driftfuto",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "euros",
+      "make": "Annis",
+      "model": "Annis Euros",
+      "description": "",
+      "variations": [
+        {
+          "id": "drifteuros",
+          "name": "Euros",
+          "price": 50000,
+          "image": "drifteuros",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "jester4",
+      "make": "Dinka",
+      "model": "Dinka Jester RR",
+      "description": "",
+      "variations": [
+        {
+          "id": "driftjester",
+          "name": "Jester RR",
+          "price": 50000,
+          "image": "driftjester",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "remus",
+      "make": "Annis",
+      "model": "Annis Remus",
+      "description": "",
+      "variations": [
+        {
+          "id": "driftremus",
+          "name": "Remus",
+          "price": 50000,
+          "image": "driftremus",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "tampa2",
+      "make": "Declasse",
+      "model": "Declasse Drift Tampa",
+      "description": "",
+      "variations": [
+        {
+          "id": "drifttampa",
+          "name": "Drift Tampa",
+          "price": 50000,
+          "image": "drifttampa",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "yosemite2",
+      "make": "Declasse",
+      "model": "Declasse Yosemite Drift",
+      "description": "",
+      "variations": [
+        {
+          "id": "driftyosemite",
+          "name": "Drift Yosemite",
+          "price": 50000,
+          "image": "driftyosemite",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gstter1",
+      "make": "Import",
+      "model": "Karin Terenowa",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstter1b",
+          "name": "Terenowa DXT",
+          "price": 100000,
+          "image": "gstter1b",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "r300",
+      "make": "Annis",
+      "model": "Annis 300R",
+      "description": "",
+      "variations": [
+        {
+          "id": "gst3001",
+          "name": "Annis 300WB",
+          "price": 100000,
+          "image": "gst3001",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gst73r1",
+      "make": "Import",
+      "model": "Benefactor 73R",
+      "description": "",
+      "variations": [
+        {
+          "id": "gst73r1b",
+          "name": "73R WB",
+          "price": 100000,
+          "image": "gst73r1b",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "impaler",
+      "make": "Declasse",
+      "model": "Declasse Impaler",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstimp1",
+          "name": "Impaler KSD",
+          "price": 100000,
+          "image": "gstimp1",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gstsct1",
+      "make": "Import",
+      "model": "Vapid Scout XL",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstsct1b",
+          "name": "Scout XL WB",
+          "price": 100000,
+          "image": "gstsct1b",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gstdst1",
+      "make": "Import",
+      "model": "Vapid Dorset",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstdst1b",
+          "name": "Dorset Drift",
+          "price": 100000,
+          "image": "gstdst1b",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gstbanac1",
+      "make": "Import",
+      "model": "Bravado Banshee A/C",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstbanac1b",
+          "name": "Bravado Banshee A/C CTX",
+          "price": 100000,
+          "image": "gstbanac1b",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "guardian",
+      "make": "Vapid",
+      "model": "Vapid Guardian",
+      "description": "",
+      "variations": [
+        {
+          "id": "guardianrv",
+          "name": "Vapid Guardian RV",
+          "price": 100000,
+          "image": "guardianrv",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "caracara2",
+      "make": "Vapid",
+      "model": "Vapid Caracara 4x4",
+      "description": "",
+      "variations": [
+        {
+          "id": "cararv",
+          "name": "Vapid Caracara RV",
+          "price": 100000,
+          "image": "cararv",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "sandking",
+      "make": "Vapid",
+      "model": "Vapid Sandking XL",
+      "description": "",
+      "variations": [
+        {
+          "id": "sandroamer",
+          "name": "Vapid Sandking RV",
+          "price": 100000,
+          "image": "sandroamer",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "sandking2",
+      "make": "Vapid",
+      "model": "Sandking SWB",
+      "description": "",
+      "variations": [
+        {
+          "id": "sandkingrv",
+          "name": "Vapid Sandking RV",
+          "price": 100000,
+          "image": "sandkingrv",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "weevil",
+      "make": "BF",
+      "model": "BF Weevil",
+      "description": "",
+      "variations": [
+        {
+          "id": "GODzVDUBWB",
+          "name": "BF Weevil Cabriolet WB",
+          "price": 100000,
+          "image": "GODzVDUBWB",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "greenwood",
+      "make": "Bravado",
+      "model": "Bravado Greenwood",
+      "description": "",
+      "variations": [
+        {
+          "id": "77monte",
+          "name": "Bravado Greenwood DNK",
+          "price": 100000,
+          "image": "77monte",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "sunrise1",
+      "make": "Import",
+      "model": "Maibatsu Sunrise",
+      "description": "",
+      "variations": [
+        {
+          "id": "hycsun",
+          "name": "Maibatsu Sunrise Hycade",
+          "price": 100000,
+          "image": "hycsun",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "dominator7",
+      "make": "Vapid",
+      "model": "Vapid Dominator ASP",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstasp2",
+          "name": "Vapid Dominator ASP Drift",
+          "price": 100000,
+          "image": "gstasp2",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "vd_buffalo4h",
+      "make": "Bravado",
+      "model": "Bravado Buffalo Hellfire",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstbhow2",
+          "name": "Bravado Buffalo Howitzer WB",
+          "price": 100000,
+          "image": "gstbhow2",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "cavalcade3",
+      "make": "Albany",
+      "model": "Albany Cavalcade XL",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstcavxl1",
+          "name": "Albany Cavalcade XL WB",
+          "price": 100000,
+          "image": "gstcavxl1",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "cypher",
+      "make": "Ubermacht",
+      "model": "Übermacht Cypher",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstcyp2",
+          "name": "Ubermacht Cypher WB",
+          "price": 100000,
+          "image": "gstcyp2",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "dominator8",
+      "make": "Vapid",
+      "model": "Vapid Dominator GTT",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstdomgtt5",
+          "name": "Vapid Dominator GTT Drift",
+          "price": 100000,
+          "image": "gstdomgtt5",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "caddy3",
+      "make": "",
+      "model": "Nagasaki Caddy (Utility)",
+      "description": "",
+      "variations": [
+        {
+          "id": "GODzMONSTERCADDI4SEAT",
+          "name": "Nagasaki Monster Caddy",
+          "price": 100000,
+          "image": "GODzMONSTERCADDI4SEAT",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "onx_polterm",
+      "make": "Canis",
+      "model": "Canis Terminus GI",
+      "description": "",
+      "variations": [
+        {
+          "id": "onx_polterm2",
+          "name": "Canis Terminus Off Roader GI",
+          "price": 50000,
+          "image": "onx_polterm2",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "onx_polbison",
+      "make": "Bravado",
+      "model": "Bravado Bison GI",
+      "description": "",
+      "variations": [
+        {
+          "id": "onx_polbison3",
+          "name": "Bravado Bison Off Roader GI",
+          "price": 50000,
+          "image": "onx_polbison3",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gsttorosxo1",
+      "make": "Import",
+      "model": "Pegassi Toros XO",
+      "description": "",
+      "variations": [
+        {
+          "id": "gsttorosxo1b",
+          "name": "Pegassi Toros XO CTX",
+          "price": 100000,
+          "image": "gsttorosxo1b",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "elegy2",
+      "make": "Annis",
+      "model": "Annis Elegy RH8",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstrh84",
+          "name": "Annis Elegy RH8 XTRME",
+          "price": 100000,
+          "image": "gstrh84",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "elegy",
+      "make": "Annis",
+      "model": "Annis Elegy Retro Custom",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstrh5pm1",
+          "name": "Annis Elegy RH5 Pocket Missile",
+          "price": 50000,
+          "image": "gstrh5pm1",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gstrh5pm1",
+      "make": "Import",
+      "model": "Annis Elegy RH5 Pocket Missile",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstrh7pm1",
+          "name": "Annis Elegy RH7 Pocket Missile",
+          "price": 50000,
+          "image": "gstrh7pm1",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "sentinel4",
+      "make": "Ubermacht",
+      "model": "Übermacht Sentinel Classic Widebody",
+      "description": "",
+      "variations": [
+        {
+          "id": "driftsentinel",
+          "name": "Drift Sentinel Classic",
+          "price": 50000,
+          "image": "driftsentinel",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "l352",
+      "make": "Declasse",
+      "model": "Walton L35 Street",
+      "description": "",
+      "variations": [
+        {
+          "id": "driftl352",
+          "name": "Drift Walton L35 Street",
+          "price": 50000,
+          "image": "driftl352",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "cheetah2",
+      "make": "Grotti",
+      "model": "Grotti Cheetah Classic",
+      "description": "",
+      "variations": [
+        {
+          "id": "cheetah3",
+          "name": "ECC Cheetah Classic",
+          "price": 100000,
+          "image": "cheetah3",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "vorschlaghammer",
+      "make": "Benefactor",
+      "model": "Vorschlaghammer",
+      "description": "",
+      "variations": [
+        {
+          "id": "driftvorschlag",
+          "name": "Vorschlaghammer",
+          "price": 50000,
+          "image": "driftvorschlag",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "keitora",
+      "make": "Shitzu",
+      "model": "Keitora",
+      "description": "",
+      "variations": [
+        {
+          "id": "driftkeitora",
+          "name": "Keitora",
+          "price": 50000,
+          "image": "driftkeitora",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "fmj",
+      "make": "Vapid",
+      "model": "Vapid FMJ",
+      "description": "",
+      "variations": [
+        {
+          "id": "fmj2",
+          "name": "FMJ MK V",
+          "price": 100000,
+          "image": "fmj2",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "godzninjah2",
+      "make": "Import",
+      "model": "Nagasaki Kinochi",
+      "description": "",
+      "variations": [
+        {
+          "id": "DEFz_H2DragEevee",
+          "name": "Weevee Drag",
+          "price": 100000,
+          "image": "DEFz_H2DragEevee",
+          "description": "",
+          "highlights": []
+        },
+        {
+          "id": "dwninjah2",
+          "name": "Kitsune",
+          "price": 100000,
+          "image": "dwninjah2",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gstsulsport1",
+      "make": "Import",
+      "model": "Karin Sultan Sport",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstsulsport1b",
+          "name": "Karin Sultan Sport WB",
+          "price": 100000,
+          "image": "gstsulsport1b",
+          "description": "",
+          "highlights": []
+        },
+        {
+          "id": "gstsulsport1c",
+          "name": "Karin Sultan Sport T/A",
+          "price": 100000,
+          "image": "gstsulsport1c",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gstelectron1",
+      "make": "Import",
+      "model": "Coil Electron",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstelectron1b",
+          "name": "Coil Electron CTX",
+          "price": 100000,
+          "image": "gstelectron1b",
+          "description": "",
+          "highlights": []
+        },
+        {
+          "id": "gstelectron1c",
+          "name": "Coil Electron CTX2",
+          "price": 100000,
+          "image": "gstelectron1c",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "vamos",
+      "make": "Declasse",
+      "model": "Declasse Vamos",
+      "description": "",
+      "variations": [
+        {
+          "id": "vamoswb",
+          "name": "Declasse Vamos WB",
+          "price": 100000,
+          "image": "vamoswb",
+          "description": "",
+          "highlights": []
+        },
+        {
+          "id": "gstvam2",
+          "name": "Declasse Vamos Lowrider",
+          "price": 100000,
+          "image": "gstvam2",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "vigero",
+      "make": "Declasse",
+      "model": "Declasse Vigero",
+      "description": "",
+      "variations": [
+        {
+          "id": "hs",
+          "name": "Vigero Classic 69",
+          "price": 100000,
+          "image": "hs",
+          "description": "",
+          "highlights": []
+        },
+        {
+          "id": "rr69camarowide",
+          "name": "Vigero Classic 69 WB",
+          "price": 100000,
+          "image": "rr69camarowide",
+          "description": "",
+          "highlights": []
+        },
+        {
+          "id": "gstcamkse",
+          "name": "Vigero Classic 69 WB Single Seater",
+          "price": 100000,
+          "image": "gstcamkse",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gstgrs1",
+      "make": "Import",
+      "model": "Bravado Gresley NG",
+      "description": "",
+      "variations": [
+        {
+          "id": "gresleyhellfire",
+          "name": "Gresley Hellfire",
+          "price": 100000,
+          "image": "gresleyhellfire",
+          "description": "",
+          "highlights": []
+        },
+        {
+          "id": "gstgrs1b",
+          "name": "Bravado Gresley NG WB",
+          "price": 100000,
+          "image": "gstgrs1b",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gstlfc1",
+      "make": "Import",
+      "model": "Emperor LFC",
+      "description": "",
+      "variations": [
+        {
+          "id": "gstlfc1b",
+          "name": "Emperor LFC GT3",
+          "price": 100000,
+          "image": "gstlfc1b",
+          "description": "",
+          "highlights": []
+        },
+        {
+          "id": "gstlfc1c",
+          "name": "Emperor LFC CTX",
+          "price": 100000,
+          "image": "gstlfc1c",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    },
+    {
+      "id": "gst920s1",
+      "make": "Import",
+      "model": "Progen T20 920s",
+      "description": "",
+      "variations": [
+        {
+          "id": "gst920s1b",
+          "name": "Progen T20 920s CTX",
+          "price": 100000,
+          "image": "gst920s1b",
+          "description": "",
+          "highlights": []
+        },
+        {
+          "id": "gst920s1c",
+          "name": "Progen T20 920s CTX2",
+          "price": 100000,
+          "image": "gst920s1c",
+          "description": "",
+          "highlights": []
+        },
+        {
+          "id": "gst920s1d",
+          "name": "Progen T20 920s 1310 Projex",
+          "price": 100000,
+          "image": "gst920s1d",
+          "description": "",
+          "highlights": []
+        }
+      ]
+    }
+  ]
+}
