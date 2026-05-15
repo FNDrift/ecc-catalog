@@ -201,6 +201,7 @@ body {
     padding: clamp(22px, 2vw, 32px);
     box-shadow: 0 0 42px rgba(0, 0, 0, 0.55);
     min-height: 0;
+    min-width: 0;
     height: 100%;
     overflow: hidden;
 }
@@ -300,6 +301,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    min-width: 0;
 }
 
 .label {
@@ -313,6 +315,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    min-width: 0;
 }
 
 .tab-btn {
@@ -355,12 +358,17 @@ body {
     width: 100%;
     min-width: 0;
     max-width: 100%;
+    justify-self: stretch;
+    align-self: stretch;
     border-radius: 18px;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.12);
     background: radial-gradient(circle at center, rgba(34, 36, 48, 0.95), rgba(8, 8, 12, 0.96));
     min-height: 0;
     height: 100%;
+    min-inline-size: 0;
+    max-inline-size: 100%;
+    min-block-size: clamp(240px, 34vh, 420px);
     padding: 18px;
 }
 
@@ -414,6 +422,7 @@ body {
     font-size: 14px;
     line-height: 1.4;
     opacity: 0.9;
+    min-width: 0;
 }
 
 .highlight-list {
@@ -422,6 +431,7 @@ body {
     font-size: 13px;
     line-height: 1.4;
     opacity: 0.9;
+    min-width: 0;
 }
 
 .highlight-list li {
@@ -457,6 +467,7 @@ body {
     .preview-frame {
         min-height: 280px;
         aspect-ratio: 16 / 10;
+        height: auto;
     }
 }
 
