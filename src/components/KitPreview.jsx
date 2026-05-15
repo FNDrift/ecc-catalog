@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { formatPrice } from '../hooks/useCatalog.js';
 
 export function KitPreview({ vehicle, variation }) {
     const [imageBroken, setImageBroken] = useState(false);
@@ -18,30 +17,24 @@ export function KitPreview({ vehicle, variation }) {
 
     return (
         <div className="preview-block">
-            <div className="preview-frame">
-                {showImage ? (
-                    <img
-                        className="preview-image"
-                        src={src}
-                        alt={vehicle ? `${vehicle.model} — ${variation.name}` : ''}
-                        onError={() => setImageBroken(true)}
-                    />
-                ) : null}
-                <div className={'preview-placeholder' + (showImage ? ' hidden' : '')}>{placeholderText}</div>
-            </div>
             <div className="preview-meta">
-                <div className="preview-title-row">
-                    <h3 className="variation-title">{variation?.name}</h3>
-                    {formatPrice(variation?.price) ? (
-                        <span className="price-pill">{formatPrice(variation.price)}</span>
-                    ) : null}
-                </div>
                 <p className="variation-desc">{variation?.description || ''}</p>
                 <ul className="highlight-list">
                     {(variation?.highlights || []).map((line) => (
                         <li key={line}>{line}</li>
                     ))}
                 </ul>
+            </div>
+            <div className="preview-frame">
+                {showImage ? (
+                    <img
+                        className="preview-image"
+                        src={src}
+                        alt={vehicle ? `${vehicle.model} - ${variation.name}` : ''}
+                        onError={() => setImageBroken(true)}
+                    />
+                ) : null}
+                <div className={'preview-placeholder' + (showImage ? ' hidden' : '')}>{placeholderText}</div>
             </div>
         </div>
     );

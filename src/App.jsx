@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { KitPreview } from './components/KitPreview.jsx';
 import { ShopHeader } from './components/ShopHeader.jsx';
 import { VehicleRail } from './components/VehicleRail.jsx';
-import { useCatalog, vehicleSearchText } from './hooks/useCatalog.js';
+import { formatPrice, useCatalog, vehicleSearchText } from './hooks/useCatalog.js';
 
 export default function App() {
     const { catalog, loadError, selectedVehicleId, setSelectedVehicleId, variationIndex, setVariationIndex } = useCatalog();
@@ -64,9 +64,11 @@ export default function App() {
                     ) : !hasVariations ? (
                         <div className="detail-content">
                             <div className="detail-header">
-                                <p className="vehicle-make">{selectedVehicle.make || ''}</p>
-                                <h2 className="vehicle-model">{selectedVehicle.model}</h2>
-                                <p className="vehicle-desc">{selectedVehicle.description || ''}</p>
+                                <div className="detail-header-main">
+                                    <p className="vehicle-make">{selectedVehicle.make || ''}</p>
+                                    <h2 className="vehicle-model">{selectedVehicle.model}</h2>
+                                    <p className="vehicle-desc">{selectedVehicle.description || ''}</p>
+                                </div>
                             </div>
                             <div className="preview-block">
                                 <div className="preview-frame">
@@ -81,9 +83,22 @@ export default function App() {
                     ) : (
                         <div className="detail-content">
                             <div className="detail-header">
-                                <p className="vehicle-make">{selectedVehicle.make || ''}</p>
-                                <h2 className="vehicle-model">{selectedVehicle.model}</h2>
-                                <p className="vehicle-desc">{selectedVehicle.description || ''}</p>
+                                <div className="detail-header-main">
+                                    <p className="vehicle-make">{selectedVehicle.make || ''}</p>
+                                    <h2 className="vehicle-model">{selectedVehicle.model}</h2>
+                                    <p className="vehicle-desc">{selectedVehicle.description || ''}</p>
+                                </div>
+                                {variation ? (
+                                    <div className="detail-header-aside">
+                                        <span className="header-kit-label">Selected kit</span>
+                                        <div className="header-kit-row">
+                                            <h3 className="header-kit-title">{variation.name}</h3>
+                                            {variation.price !== undefined && variation.price !== null && variation.price !== '' ? (
+                                                <span className="price-pill">{formatPrice(variation.price)}</span>
+                                            ) : null}
+                                        </div>
+                                    </div>
+                                ) : null}
                             </div>
                             <div className="variation-section">
                                 <span className="label">Kit options</span>
